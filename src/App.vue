@@ -6,7 +6,6 @@ import config from '~/config'
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
   title: config.title,
-
   meta: [
     { name: 'description', content: config.description },
     {
